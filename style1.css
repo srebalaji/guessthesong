@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'myfirstfont';
+    src: url('MyriadPro-Light.otf');
+}
+
+body
+{
+overflow-x: hidden;
+background-image:url("n.jpg");
+background-repeat:no-repeat;
+background-size:1400px 800px;
+font-family: "myfirstfont","Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+}
+
+#load
+{
+
+position:relative;
+
+left:400px;
+color:white;
+}
+#one,#two,#three,#four
+{
+cursor:pointer;
+margin-bottom:13px;
+text-align:center;
+}
+
+#start
+{
+font-size: 2em;
+position:relative;
+top:200px;
+left:447px;
+}
+
+#astart
+{
+font-size:2em;
+position:relative;
+top:40px;
+left:477px;
+}
+
+#total_score
+{
+font-size:2em;
+color:white;
+position:relative;
+top:200px;
+}
+#save
+{
+font-size:2em;
+position:relative;
+left:-400px;
+top:250px;
+}
+#start2
+{
+font-size:2em;
+position:relative;
+left:-20px;
+top:350px;
+}
+
+.myButton {
+	background-color:#ffffff;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:myfirstfont;
+	
+	padding:3px 42px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+width:360px;	background-color:#ffffff;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:myfirstfont;
+	
+	padding:3px 42px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#gands
+{
+font-size:2em;
+position:relative;
+top:100px;
+left:350px;
+color:white;
+}
+
+#gands2
+{
+font-size:1em;
+position:relative;
+color:white;
+
+}
+
+#space
+{
+margin-left:300px;
+}
+
+#s_load
+{
+font-size:3em;
+color:white;
+position:relative;
+left:120px;
+top:200px;
+}
+.timer
+{
+position:relative;
+left:100px;
+top:00px;
+}
+#notice
+{
+position:absolute;top:80px;left:40px;
+color:white;font-size:1.05em;
+line-height:1.5em;
+}
+#mile{
+color:white;
+position:absolute;
+top:30px;
+left:350px;
+font-size:1.3em;
+line-height:1.8em;
+}
